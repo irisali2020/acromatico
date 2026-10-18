@@ -1,0 +1,26 @@
+{
+  "name": "acromatico-os",
+  "version": "1.0.0",
+  "description": "Acromático OS - Sistema Integral de Automatización y Gestión para Estudio de Arquitectura en Zona Norte (Buenos Aires)",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "build": "npm run build:backend && npm run build:frontend",
+    "start:backend": "npm --prefix backend run start",
+    "start:frontend": "npm --prefix frontend run start"
+  },
+  "keywords": [
+    "architecture",
+    "studio-management",
+    "nextjs",
+    "express",
+    "mongodb",
+    "tailwind",
+    "typescript",
+    "zona-norte"
+  ],
+  "author": "Acromático Estudio",
+  "license": "ISC"
+}
