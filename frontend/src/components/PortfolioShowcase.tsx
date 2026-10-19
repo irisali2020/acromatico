@@ -337,7 +337,7 @@ const DEFAULT_PROJECTS = [
                 </div>
 
                 <div className="pt-4 border-t border-neutral-800/80 flex flex-wrap gap-1.5">
-                  {proj.tags.map((tag, i) => (
+                  {proj.tags.map((tag: any, i: number) => (
                     <span
                       key={i}
                       className="text-[10px] font-mono px-2 py-0.5 bg-neutral-900 border border-neutral-800 text-neutral-400"
